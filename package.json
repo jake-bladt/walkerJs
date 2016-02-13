@@ -1,6 +1,9 @@
 {
   "name": "walker",
   "version": "1.0.0",
+  "engines": {
+    "node": "5.6.0"
+    },
   "description": "A step-tracking application",
   "main": "app.js",
   "scripts": {
