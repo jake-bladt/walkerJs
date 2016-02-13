@@ -1,0 +1,23 @@
+{
+  "name": "walker",
+  "description": "A step-tracking application",
+  "main": "app.js",
+  "authors": [
+    "Jake Bladt"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "walking",
+    "fitness",
+    "health"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
