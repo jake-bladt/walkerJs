@@ -4,6 +4,10 @@ Vagrant::Config.run do |config|
   config.vm.host_name = 'vagrant'
   config.vm.forward_port 3000, 3000
 
+  config.vm.provider :virtualbox do |vb|
+    vb.gui = true
+  end
+
   config.vm.provision :chef_solo do |chef|
     chef.add_recipe "mongodb::default"
   end
