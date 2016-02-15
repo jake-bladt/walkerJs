@@ -28,6 +28,8 @@
   "homepage": "http://walkerjs.herokuapp.com",
   "dependencies": {
     "express": "^4.13.4",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-google": "^0.3.0"
   }
 }

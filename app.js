@@ -2,6 +2,8 @@ var express = require('express');
 var jade = require('jade');
 var path = require('path');
 
+var AuthenticationStrategy = require('passport-google').strategy;
+
 var app = express();
 app.set('port', (process.env.PORT || 8888));
 app.set('view engine', 'jade');
